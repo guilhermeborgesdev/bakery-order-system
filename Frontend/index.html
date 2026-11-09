@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#cc3157">
+  <meta name="description" content="Varu: bolos, doces e salgados feitos com carinho para os seus melhores momentos.">
+  <title>Varu — Bolos, doces e salgados</title>
+  <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Varu — início"><img src="Images/Logo.jpg" alt="Varu, bolos, doces e salgados"></a>
+      <nav aria-label="Navegação principal">
+        <a class="active" href="#inicio">Início</a><a href="#cardapio">Cardápio</a><a href="#bolos">Bolos</a><a href="#doces">Doces</a><a href="#salgados">Salgados</a><a href="#encomendas">Encomendas</a><a href="#contato">Contato</a>
+      </nav>
+      <div class="header-actions"><a class="search" href="#cardapio" aria-label="Explorar cardápio">⌕</a><a class="social instagram" href="#contato" aria-label="Instagram">◎</a><a class="social facebook" href="#contato" aria-label="Facebook">f</a><a class="social" href="#contato" aria-label="WhatsApp">♧</a><a class="button header-order" href="#encomendas"><span aria-hidden="true">♔</span> Faça sua encomenda <span aria-hidden="true">→</span></a></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div><span class="hero-heart" aria-hidden="true">♡</span>
+      <a class="slider-arrow previous" href="#inicio" aria-label="Destaque anterior">‹</a>
+      <div class="hero-inner">
+        <div class="hero-copy"><p class="eyebrow">Bolos, doces e salgados</p><h1 id="hero-title">Momentos mais<br><em>doces com Varu <span>♡</span></em></h1><p class="hero-description">Bolos, doces e salgados feitos com carinho,<br>ingredientes selecionados e o sabor que<br>torna cada ocasião especial.</p><div class="hero-buttons"><a class="button" href="#cardapio"><span aria-hidden="true">▥</span> Ver cardápio <span aria-hidden="true">→</span></a><a class="button outline" href="#encomendas"><span aria-hidden="true">◉</span> Encomendar agora <span aria-hidden="true">→</span></a></div></div>
+        <div class="hero-photo"><img src="Images/Bolo_chocolate-morango.jpg" alt="Bolo de chocolate coberto com morangos frescos"></div>
+        <p class="handwritten hero-note">Sabor<br>que faz<br>parte dos seus<br>melhores<br>momentos!<span>⌁ ♡</span></p>
+      </div>
+      <a class="slider-arrow next" href="#inicio" aria-label="Próximo destaque">›</a><div class="slider-dots" aria-label="Primeiro destaque"><span class="selected"></span><span></span><span></span></div>
+    </section>
+    <section class="categories" id="cardapio" aria-labelledby="categories-title">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">Nossas categorias</p><h2 id="categories-title">Escolha o seu favorito <span class="heart">♡</span></h2></div><p>Delícias para todas as ocasiões,<br>feitas com muito carinho.</p></div>
+      <div class="category-grid">
+        <article class="category-card" id="bolos"><img src="Images/Bolo_Sem_Cobertura_Frutas.jpg" alt="Bolo com creme e frutas"><div class="category-icon" aria-hidden="true">♔</div><div class="category-content"><h3>Bolos</h3><p>Bolos caseiros e personalizados para deixar seus momentos ainda mais especiais.</p><a href="#produtos">Ver bolos →</a></div></article>
+        <article class="category-card" id="doces"><img src="Images/Trufas.jpg" alt="Seleção de trufas de chocolate"><div class="category-icon" aria-hidden="true">♜</div><div class="category-content"><h3>Doces</h3><p>Brigadeiros, docinhos finos e muitas delícias para todas as ocasiões.</p><a href="#produtos">Ver doces →</a></div></article>
+        <article class="category-card" id="salgados"><img src="Images/SAlgados_3.jpg" alt="Salgados dourados e fresquinhos"><div class="category-icon" aria-hidden="true">♧</div><div class="category-content"><h3>Salgados</h3><p>Salgados fresquinhos e saborosos, ideais para festas, reuniões e eventos.</p><a href="#produtos">Ver salgados →</a></div></article>
+      </div></div>
+    </section>
+    <section class="products container" id="produtos" aria-labelledby="products-title"><div class="section-heading"><div><p class="eyebrow">Produtos em destaque</p><h2 id="products-title">Nossas delícias <span class="heart">♡</span></h2></div><a href="#cardapio">Ver todos os produtos →</a></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-photo"><img src="Images/Bolo_chocolate-morango.jpg" alt="Bolo de chocolate com morangos"><span class="badge">Mais vendido</span></div><div class="product-content"><h3>Bolo de Chocolate</h3><p>Massa fofinha com recheio<br>cremoso e cobertura especial.</p><div class="product-bottom"><span class="price">R$ 89,90</span><a class="cart" href="#encomendas" aria-label="Encomendar bolo de chocolate"><span class="cart-drawing" aria-hidden="true"></span></a></div></div></article>
+        <article class="product-card"><div class="product-photo"><img src="Images/Bolo_Sem_Cobertura_Frutas.jpg" alt="Bolo de morango com creme branco"></div><div class="product-content"><h3>Bolo de Morango</h3><p>Bolo branco com creme e<br>morangos frescos.</p><div class="product-bottom"><span class="price">R$ 94,90</span><a class="cart" href="#encomendas" aria-label="Encomendar bolo de morango"><span class="cart-drawing" aria-hidden="true"></span></a></div></div></article>
+        <article class="product-card"><div class="product-photo"><img src="Images/Trufas.jpg" alt="Docinhos de chocolate gourmet"></div><div class="product-content"><h3>Brigadeiro Gourmet</h3><p>Sabores variados, feito<br>com chocolate de qualidade.</p><div class="product-bottom"><span class="price">R$ 3,50</span><a class="cart" href="#encomendas" aria-label="Encomendar brigadeiro gourmet"><span class="cart-drawing" aria-hidden="true"></span></a></div></div></article>
+        <article class="product-card"><div class="product-photo"><img src="Images/SAlgados_3.jpg" alt="Porção de coxinhas tradicionais"></div><div class="product-content"><h3>Coxinha Tradicional</h3><p>Salgado clássico, com massa<br>macia e recheio cremoso.</p><div class="product-bottom"><span class="price">R$ 2,50</span><a class="cart" href="#encomendas" aria-label="Encomendar coxinha tradicional"><span class="cart-drawing" aria-hidden="true"></span></a></div></div></article>
+        <article class="product-card"><div class="product-photo"><img src="Images/Docinhos_7.webp" alt="Caixa de docinhos variados para festas"></div><div class="product-content"><h3>Caixa de Doces Finos</h3><p>Seleção especial para festas<br>e eventos.</p><div class="product-bottom"><span class="price">R$ 49,90</span><a class="cart" href="#encomendas" aria-label="Encomendar caixa de doces finos"><span class="cart-drawing" aria-hidden="true"></span></a></div></div></article>
+      </div>
+    </section>
+    <section class="quality" id="encomendas" aria-label="Qualidade em cada detalhe"><div class="quality-wave"></div><div class="container quality-inner"><h2>Qualidade em<br>cada detalhe <span>♡</span></h2><div class="quality-item"><span class="quality-icon leaf" aria-hidden="true">♧</span><div><h3>Ingredientes<br>selecionados</h3><p>Mais sabor e segurança<br>para você e sua família.</p></div></div><div class="quality-item"><span class="quality-icon" aria-hidden="true">♧</span><div><h3>Produção<br>artesanal</h3><p>Receitas feitas com<br>muito carinho.</p></div></div><div class="quality-item"><span class="quality-icon" aria-hidden="true">♡</span><div><h3>Encomendas<br>personalizadas</h3><p>Bolos e kits sob medida<br>para o seu evento.</p></div></div><div class="quality-seal handwritten">Tudo<br>mais gostoso<br>quando é<br>feito com<br>amor! <span>♡</span></div></div></section>
+    <section class="testimonials container" id="contato" aria-labelledby="testimonials-title"><div><p class="eyebrow">O que nossos clientes dizem</p><h2 id="testimonials-title">Quem prova,<br>se apaixona <span class="heart">♡</span></h2></div><blockquote><span class="quote-mark">“</span><p>Bolo maravilhoso, super fofinho e sabor incrível! Atendimento cheio de carinho.</p><footer><span class="stars">★★★★★</span> Mariana S.</footer></blockquote><blockquote><span class="quote-mark">“</span><p>Os doces são simplesmente deliciosos! Tudo feito com muito capricho.</p><footer><span class="stars">★★★★★</span> Camila R.</footer></blockquote><blockquote><span class="quote-mark">“</span><p>Encomendei salgados para minha festa e todos adoraram! Com certeza pedirei de novo.</p><footer><span class="stars">★★★★★</span> Juliana M.</footer></blockquote></section>
+  </main>
+  <footer class="page-footer">Varu <span>♡</span> Bolos, doces e salgados feitos com carinho.</footer>
+</body>
+</html>
